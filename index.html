@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taal & Modular Arithmetic</title>
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=DM+Sans&family=DM+Mono&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="page-frame">
+
+<header>
+  <div class="event-badge">Mathematical Modelling of Taal</div>
+  <h1>Rhythm & <span>Modular</span><br>Arithmetic</h1>
+  <div class="ornament">— ॐ —</div>
+  <p class="subtitle">
+    Indian Taals as cyclic groups ℤₙ
+  </p>
+</header>
+
+<div class="main">
+
+  <div id="taal-selector" class="taal-selector"></div>
+
+  <div class="content-grid">
+
+    <!-- LEFT -->
+    <div>
+      <div class="card">
+        <div class="card-title">Cyclic Wheel ℤₙ</div>
+        <canvas id="wheel-canvas" width="320" height="320"></canvas>
+        <button id="spin-btn" class="spin-btn">▶ Animate Avartana</button>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Taal Structure</div>
+        <div id="info-grid"></div>
+        <div id="vibhag-row"></div>
+        <div id="bol-chips"></div>
+        <div id="fun-fact"></div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div>
+      <div class="card">
+        <div class="card-title">Beat Calculator</div>
+        <input type="number" id="beat-input">
+        <button id="calc-btn">Calculate</button>
+        <div id="beat-result"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Beat Map</div>
+        <div id="beat-strip"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Tihai Calculator</div>
+        <input type="number" id="tihai-len">
+        <button id="tihai-btn">Solve</button>
+        <div id="tihai-result"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Layakari Map</div>
+        <input type="number" id="lay-input">
+        <button id="lay-btn">Show</button>
+        <div id="lay-result"></div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  Mathematics × Music
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
