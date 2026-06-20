@@ -1,7 +1,6 @@
 # Taal Explorer
 
-**Every Taal is a Circle.** An interactive, beginner-friendly web app that explores Indian classical rhythm (Taal) through modular arithmetic — built for [TechNrityam](https://technrityam.com), India's first digital Kathak learning platform.
-
+**Every Taal is a Circle.** An interactive, beginner-friendly web app that explores Indian classical rhythm (Taal) through modular arithmetic 
 🔗 **Live demo:** 
 
 ![status](https://img.shields.io/badge/status-active-brightgreen) ![license](https://img.shields.io/badge/license-MIT-blue)
