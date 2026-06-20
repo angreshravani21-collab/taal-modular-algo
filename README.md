@@ -100,5 +100,7 @@ No server, no install required.
 
 ## 🙏 Credits
 
-Built by **Shravani Angre** as part of a collaboration with **TechNrityam**, exploring the intersection of mathematics, Indian classical dance, and web development.
+Built by **Shravani Angre** 
+
+
 
